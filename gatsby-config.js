@@ -27,6 +27,27 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-firestore`,
+      options: {
+        credential: require(`./firebase-adminsdk-serviceAccountKey.json`),
+        types: [
+          {
+            type: `Review`,
+            collection: `reviews`,
+            map: doc => ({
+              numberId: doc.numberId,
+              title: doc.title,
+              author: doc.author,
+              body: doc.body,
+              displayable: doc.displayable,
+              reviewedAt: doc.reviewedAt,
+              rating: doc.rating,
+            }),
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
