@@ -20,7 +20,15 @@ export default ({ data }) => {
           <a href="/">{review.school.name}</a>
         </li>
       </ul>
-      TODO: タグ, レーティングの星表示
+      <div>
+        <p>タグ</p>
+        <ul>
+          {review.tags.map(tag => (
+            <li>{tag.name}</li>
+          ))}
+        </ul>
+      </div>
+      TODO: レーティングの星表示
       <div>
         <p>{review.author}</p>
       </div>
@@ -40,6 +48,9 @@ export const query = graphql`
       author
       school {
         prefecture
+        name
+      }
+      tags {
         name
       }
     }
