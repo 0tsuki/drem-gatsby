@@ -44,9 +44,14 @@ module.exports = {
               reviewedAt: doc.reviewedAt,
               rating: doc.rating,
               school: {
+                numberId: doc.school.numberId,
                 prefecture: doc.school.prefecture,
                 name: doc.school.name,
               },
+              tags: doc.tags.map(tag => ({
+                numberId: tag.numberId,
+                name: tag.name,
+              })),
             }),
           },
         ],
