@@ -28,7 +28,7 @@ export default ({ data }) => {
           ))}
         </ul>
       </div>
-      TODO: レーティングの星表示
+      <p>レーティング: {review.rating}</p>
       <div>
         <p>{review.author}</p>
       </div>
@@ -46,6 +46,7 @@ export const query = graphql`
       title
       body
       author
+      rating
       school {
         prefecture
         name
