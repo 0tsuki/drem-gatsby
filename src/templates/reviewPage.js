@@ -14,10 +14,10 @@ export default ({ data }) => {
       <ul>
         <li>トップ</li>
         <li>
-          <a href="">{review.school.prefecture}</a>
+          <a href="/">{review.school.prefecture}</a>
         </li>
         <li>
-          <a href="">{review.school.name}</a>
+          <a href="/">{review.school.name}</a>
         </li>
       </ul>
       TODO: タグ, レーティングの星表示
