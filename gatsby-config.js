@@ -43,6 +43,10 @@ module.exports = {
               displayable: doc.displayable,
               reviewedAt: doc.reviewedAt,
               rating: doc.rating,
+              school: {
+                prefecture: doc.school.prefecture,
+                name: doc.school.name,
+              },
             }),
           },
         ],

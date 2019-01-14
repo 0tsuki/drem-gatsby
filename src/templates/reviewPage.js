@@ -11,7 +11,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <h1>{review.title}</h1>
-      TODO: 都道府県, 教習所名, タグ, レーティングの星表示
+      <ul>
+        <li>トップ</li>
+        <li>
+          <a href="">{review.school.prefecture}</a>
+        </li>
+        <li>
+          <a href="">{review.school.name}</a>
+        </li>
+      </ul>
+      TODO: タグ, レーティングの星表示
       <div>
         <p>{review.author}</p>
       </div>
@@ -29,6 +38,10 @@ export const query = graphql`
       title
       body
       author
+      school {
+        prefecture
+        name
+      }
     }
   }
 `
