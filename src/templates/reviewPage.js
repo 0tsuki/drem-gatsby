@@ -40,8 +40,8 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($id: Int) {
-    review(numberId: { eq: $id }) {
+  query($id: String) {
+    review(id: { eq: $id }) {
       numberId
       title
       body

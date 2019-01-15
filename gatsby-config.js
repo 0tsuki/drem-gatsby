@@ -36,6 +36,7 @@ module.exports = {
             type: `Review`,
             collection: `reviews`,
             map: doc => ({
+              id: doc.id,
               numberId: doc.numberId,
               title: doc.title,
               author: doc.author,
