@@ -5366,10 +5366,10 @@ gatsby-plugin-sharp@2.0.18:
     sharp "^0.21.0"
     svgo "^0.7.2"
 
-gatsby-react-router-scroll@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.0.2.tgz#d8046ce2f3bfa52ef6ec55804007d976b0bb6bef"
-  integrity sha512-yT1cSKieXvnAlQKwPHHU4Ou5uVA8xXCc0rS1tdxGoxlOIC/vtXeHic64aH0fiLbgVEMFnbKI4n3I3IFQ6huzAA==
+gatsby-react-router-scroll@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.0.3.tgz#024885dbafc41666faad50038375098ca376c3a8"
+  integrity sha512-XYdC+Zr/9ZQCxWh9WbylLf7BvGghU7JjPEG+pGcHN2riOawle5FrVk3abVHcn9OErRT55ZI0BFTS5dr0JPIk2g==
   dependencies:
     "@babel/runtime" "^7.0.0"
     scroll-behavior "^0.9.9"
@@ -5404,10 +5404,10 @@ gatsby-source-firestore@1.0.3:
     firebase-admin "^5.8.1"
     gatsby-cli "^1.1.58"
 
-gatsby-transformer-sharp@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.10.tgz#b3833e09c6e829ca1d39a618cfd841eb41775a5a"
-  integrity sha512-MApO9D6UtaFxQkucNwW9WgT0At1ORPz4pBMt6C/yE8RLyyZXA3l0v1L1RDnq5nhGovYEadldU3q8BTs4vJdGPA==
+gatsby-transformer-sharp@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.12.tgz#92e47ccb199f324b1b6fd569068113e79276ac9d"
+  integrity sha512-ek7RgG8v0sKb+sQvAc92iE4Gg+RSZlgpsyCMyrm2LHA70Zw8qIDnusLwoKUSSWPzG2sFgPJQhJyevDr9WZHaFQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -5416,10 +5416,10 @@ gatsby-transformer-sharp@2.1.10:
     probe-image-size "^4.0.0"
     sharp "^0.21.0"
 
-gatsby@2.0.93:
-  version "2.0.93"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.93.tgz#5657ae9edd7aa4b28c8e6d7386a9140226c1bc24"
-  integrity sha512-cooOHmZvznJvspPeExwe8CgEUdYvSI0PiXs+3lVL9uFgrZG2FmO/4nvY31DlsvFEldTzpxg954Pekwqd1PX9BA==
+gatsby@2.0.97:
+  version "2.0.97"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.97.tgz#46ccf0e3ed3d0a6340a5b88eeb0b2e66ed282df7"
+  integrity sha512-S9f/CMuvzyfzZVCSyXgLF5GOsQs1zKmKXYElHuj54ehdk4jeKxw9QDyC/JZwrxwmTx/Qfl1XjEujHFUnhUb47A==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5476,7 +5476,7 @@ gatsby@2.0.93:
     gatsby-cli "^2.4.8"
     gatsby-link "^2.0.9"
     gatsby-plugin-page-creator "^2.0.5"
-    gatsby-react-router-scroll "^2.0.2"
+    gatsby-react-router-scroll "^2.0.3"
     glob "^7.1.1"
     graphql "^0.13.2"
     graphql-relay "^0.5.5"
